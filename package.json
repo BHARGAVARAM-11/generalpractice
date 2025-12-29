@@ -1,0 +1,8 @@
+{
+  "name": "general-practice",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo Building general practice project"
+  }
+}
+

@@ -16,10 +16,10 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '17'
+          node-version: '18'
 
       - name: Install dependencies
-        run: npn install
+        run: npm install
 
       - name: Build project
         run: npm run build || echo "No build script defined"
